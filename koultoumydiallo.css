@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'arial','Roboto', sans-serif;
+    color: #343232;
 }
 
 body {
@@ -17,16 +17,16 @@ body {
 }
 
 .logo {
-   font-size: 30px;
+   font-size: 40px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: #1c6eb1;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #366b52;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -51,11 +51,11 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: #f1b11a;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: #f1b11a;
 }
 
 .page-content {
@@ -79,7 +79,7 @@ body {
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
-    width: 800px;
+    width: 700px;
 }
 
 .footer {
@@ -89,7 +89,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#555555;
 }
 
 .footer-content {
@@ -100,4 +100,27 @@ body {
 .footer-content a:link {
     color: white;
     text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+thead,
+tfoot {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+figcaption {
+    font-weight: bold;
 }
